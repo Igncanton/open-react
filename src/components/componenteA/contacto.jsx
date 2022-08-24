@@ -5,6 +5,7 @@ import ComponenteB from './componenteB';
 //No logro enviar el parametro conectado desde el nuevo contacto, me tira undefined, puedo hacerlo escribiendolo yo explicitamente pero no de este modo
 //No entiendo ademas si el estado lo cambio desde el componente de clase o si lo hago desde el componente B
 //Tampoco entiendo si el estado lo cammbio de manera manual o si debo agregar un boton
+//Tampoco entendí si debia crear un proyecto nuevo o hacerlo en el proyecto que veniamos viendo en el curso
 
 class Contacto extends Component {
     constructor(nombre, apellido, email, conectado) { //no entiendo commo enviar este ultimo parametro o como enviarle el estado de esta clase por prop al componente B
